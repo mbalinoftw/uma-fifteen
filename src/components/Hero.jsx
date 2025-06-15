@@ -1,18 +1,8 @@
 import React from "react";
 import ScrollToSection from "./ScrollToSection";
-import { useTheme } from "../context/ThemeContext";
 import bgImg from "../assets/fotos/compressed/bg-hero.jpg";
 
-interface HeroProps {
-    title: string;
-    subtitle: string;
-    variant?: "primary" | "secondary" | "accent";
-}
-
-const Hero = ({ title, subtitle, variant = "primary" }: HeroProps) => {
-    const { getColorStyles } = useTheme();
-    const colorStyles = getColorStyles(variant);
-
+const Hero = ({ title, subtitle }) => {
     return (
         <section
             id="hero"
