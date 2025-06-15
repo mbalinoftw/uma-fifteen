@@ -117,17 +117,17 @@ const Navbar = ({ variant = "primary", hasThemeSelector = false }: NavbarProps) 
             {/* Mobile Menu */}
             <div
                 id="mobile-menu"
-                className={`px-6 md:hidden transition-max-height duration-500 overflow-hidden ${
+                className={`px-6 bg-white text-black md:hidden transition-max-height duration-500 overflow-hidden ${
                     isOpen ? "max-h-screen" : "max-h-0"
                 }`}
                 style={colorStyles}>
-                <div className="-mt-24 h-screen flex flex-col items-center justify-center gap-16">
+                <div className="-mt-24 pt-36 pb-12 flex flex-col items-center justify-center">
                     {navLinks.map((link) => (
                         <a
                             key={link.href}
                             href={link.href}
                             onClick={(e) => handleLinkClick(e, link.href)}
-                            className="text-2xl rounded-md transition-opacity duration-300 hover:opacity-70">
+                            className="p-4 text-lg rounded-md transition-opacity duration-300 hover:opacity-70">
                             {link.title}
                         </a>
                     ))}
