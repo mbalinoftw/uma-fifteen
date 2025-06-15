@@ -121,7 +121,7 @@ const Navbar = ({ variant = "primary", hasThemeSelector = false }: NavbarProps) 
                     isOpen ? "max-h-screen" : "max-h-0"
                 }`}
                 style={colorStyles}>
-                <div className="-mt-24 pt-36 pb-12 flex flex-col items-center justify-center">
+                <div className="-mt-24 pt-24 flex flex-col items-center justify-center">
                     {navLinks.map((link) => (
                         <a
                             key={link.href}
