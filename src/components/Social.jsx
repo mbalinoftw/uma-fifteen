@@ -12,7 +12,7 @@ const Social = ({ variant = "primary" }) => {
     return (
         <section
             id="redes"
-            className="min-h-[500px] py-8 bg-cover bg-position-[50%_25%] flex items-center justify-center text-white"
+            className="min-h-[500px] md:min-h-[600px] py-8 bg-cover bg-position-[50%_25%] md:bg-position-[50%_30%] flex items-center justify-center text-white"
             style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bgImg})` }}>
             <Container>
                 <div className="flex flex-col justify-center items-center text-center gap-4">
