@@ -33,7 +33,7 @@ const Navbar = ({ variant = "primary", hasThemeSelector = false }: NavbarProps) 
         { href: "#confirmacion", title: "Confirmá tu asistencia" },
         { href: "#dress-code", title: "Dress code" },
         { href: "#musica", title: "Música" },
-        { href: "#regalos", title: "Regalos" },
+        // { href: "#regalos", title: "Regalos" },
         { href: "#redes", title: "Redes" },
     ];
 

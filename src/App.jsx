@@ -23,11 +23,10 @@ const App = () => {
                 <Countdown targetDate={data.TARGET_DATE} variant="accent" />
                 <Quote variant="primary" />
                 <Location variant="secondary" />
+                <DressCode variant="primary" />
                 <Confirmation variant="accent" />
                 <Gallery />
-                <DressCode variant="primary" />
                 <Music variant="secondary" />
-                <Gift variant="accent" />
                 <Social variant="primary" />
                 <Footer variant="primary" />
             </div>
