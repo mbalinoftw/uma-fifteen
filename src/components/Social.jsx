@@ -22,7 +22,7 @@ const Social = ({ variant = "primary" }) => {
                         <span className="font-bold"> #15deUma</span>
                     </p>
                     <ButtonWithLink
-                        linkUrl="https://www.instagram.com/p/Cx-_0_Pv-0/"
+                        linkUrl="https://www.instagram.com/uumapalacios/"
                         text="Ver mi perfil"
                         icon={<FaInstagram />}
                         variant={variant}

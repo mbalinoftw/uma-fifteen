@@ -21,7 +21,7 @@ const Location = ({ variant = "primary" }) => {
                         <p className="text-xl">21:30 a 05:30hs</p>
                     </div>
                     <ButtonWithLink
-                        linkUrl="https://www.google.com/maps/search/?api=1&query=-34.6698909,-58.7378775"
+                        linkUrl="https://maps.app.goo.gl/qC9oEvh7cgtSqajZ8"
                         text="Cómo llegar"
                         icon={<FaMapMarkerAlt />}
                         variant={variant}
